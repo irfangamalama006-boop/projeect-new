@@ -1,0 +1,19 @@
+config/Database.php
+models/User.php
+models/Lowongan.php
+controllers/AuthController.php
+controllers/LowonganController.php
+controllers/ReportController.php
+views/auth/login.php
+views/auth/register.php
+views/lowongan/index.php
+views/lowongan/create.php
+views/lowongan/edit.php
+views/lowongan/detail.php
+views/dashboard.php
+views/header.php
+views/footer.php
+lib/fpdf/fpdf.php              (download dari fpdf.org)
+uploads/                        (folder kosong)
+index.php
+.htaccess                       (opsional)

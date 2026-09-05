@@ -1,0 +1,28 @@
+uas_251011700846_lowongan/
+├── config/
+│   └── Database.php
+├── models/
+│   ├── User.php
+│   └── Lowongan.php
+├── controllers/
+│   ├── AuthController.php
+│   ├── LowonganController.php
+│   └── ReportController.php
+├── views/
+│   ├── auth/
+│   │   ├── login.php
+│   │   └── register.php
+│   ├── lowongan/
+│   │   ├── index.php
+│   │   ├── create.php
+│   │   ├── edit.php
+│   │   └── detail.php
+│   ├── report/
+│   │   └── pdf_template.php
+│   └── dashboard.php
+├── lib/
+│   └── fpdf/          (unduh fpdf.php dan font dari http://www.fpdf.org)
+├── uploads/            (folder kosong untuk menyimpan logo)
+├── assets/             (untuk CSS/JS, bisa kosong)
+├── index.php
+└── .htaccess
